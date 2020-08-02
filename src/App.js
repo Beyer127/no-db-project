@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DraftPool from './components/DraftPool'
+import AddPlayer from './components/AddPlayer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <nav className="header">
+      <div id="nav">
+        <a href="*" class="nav">HOME</a>
+        <a href="*" class="nav">ABOUT</a>
+        <a href="*" class="nav">CONTACT</a>
+      </div>
+
+    </nav>
+    <div id="container">
+      <h1>Draft Pool</h1>
+      <ul>
+        <DraftPool/>
+      </ul>
+      </div>
     </div>
   );
 }

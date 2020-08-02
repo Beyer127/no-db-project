@@ -1,0 +1,33 @@
+[   
+    {
+    "id": 1,
+    "name": "Drew Brees",
+    "img": "",
+    "nickName": "Breesus"
+    },
+    { 
+    "id": 2,
+    "name": "Alvin Kamara",
+    "img": "",
+    "nickName": "Lights Kamara Action"
+    },
+    {
+        "id": 3,
+        "name": "Michael Thomas",
+        "img": "",
+        "nickName": "Cant Guard Mike"
+    },
+    {
+        "id": 4,
+        "name": "Tyreek Hill",
+        "img": "",
+        "nickName": "Cheetah"
+    },
+    {
+        "id": 5,
+        "name": "Saquan Barkley",
+        "img": "",
+        "nickName": "Saquad"
+    }
+
+]
