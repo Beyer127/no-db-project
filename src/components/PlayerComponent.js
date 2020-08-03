@@ -39,13 +39,14 @@ class PlayerComponent extends Component{
                         </form>
                     </div>
                 ): (
-                    <div>
+                    <div className="players">
                          <p>{this.props.player.name}</p>
                          <p>{this.props.player.nickName}</p>
                          <img src={this.props.player.img}/>
-                         
-                         <button onClick={() => this.editPlayerToggle()}>Edit</button>
-                         <button onClick={() => {this.props.deletePlayer(this.props.player.id)}}>Delete</button>
+                         <div className="edit-buttons">
+                         <button className="editButtons" onClick={() => this.editPlayerToggle()}>EDIT</button>
+                         <button className="editButtons" onClick={() => {this.props.deletePlayer(this.props.player.id)}}>DELETE</button>
+                         </div>
                     </div>
                 )}
             </div>

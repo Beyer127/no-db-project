@@ -64,7 +64,7 @@ class AddPlayer extends Component {
           />
     
 
-          <button>Add Player</button>
+          <button className="addedPlayer">Add Player</button>
         </form>
       </div>
     );
